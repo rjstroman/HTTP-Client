@@ -3,7 +3,7 @@ require 'httparty'
 class Recipe
 	include HTTParty
 
-	base_uri "http://www.food2fork.com/api"
+	base_uri "http://food2fork.com/api"
 	default_params key: ENV["FOOD2FORK_KEY"]
 	format :json
 
